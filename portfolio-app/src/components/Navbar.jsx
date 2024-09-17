@@ -35,7 +35,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter />
+            <FaXTwitter />
           </a>
         </div>
       </nav>
