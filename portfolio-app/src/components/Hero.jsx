@@ -62,6 +62,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8" ref={constraintRef}>
           <div className="flex justify-center lg:justify-end">
             <motion.img
+              className="h-[50%] w-auto"
               drag
               dragConstraints={constraintRef}
               initial={{ x: 200, opacity: 0 }}
