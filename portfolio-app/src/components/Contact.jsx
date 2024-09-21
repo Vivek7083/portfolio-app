@@ -33,6 +33,7 @@ export const Contact = () => {
         >
           LinkedIn
         </motion.a>
+        <br/>
         <motion.a
           href={CONTACT.github}
           initial={{ x: -100, opacity: 0 }}
@@ -43,6 +44,7 @@ export const Contact = () => {
         >
           Github
         </motion.a>
+        <br/>
         <motion.a
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
