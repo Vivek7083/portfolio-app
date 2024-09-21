@@ -29,7 +29,7 @@ export const Contact = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.7 }}
           whileHover={{scale:1.1, transition:{duration:0.3, delay:0}}}
-          className="my-4 cursor-pointer"
+          className="border-b border-neutral-500"
         >
           LinkedIn
         </motion.a>
@@ -40,7 +40,7 @@ export const Contact = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.7 }}
           whileHover={{scale:1.1, transition:{duration:0.3, delay:0}}}
-          className="my-4 cursor-pointer"
+          className="border-b border-neutral-500"
         >
           Github
         </motion.a>
