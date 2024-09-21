@@ -23,15 +23,24 @@ export const Contact = () => {
         >
           {CONTACT.address}
         </motion.p>
-        <motion.p
+        <motion.a
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.7 }}
           whileHover={{scale:1.1, transition:{duration:0.3, delay:0}}}
           className="my-4 cursor-pointer"
         >
-          {CONTACT.phoneNo}
-        </motion.p>
+          {CONTACT.linkedIn}
+        </motion.a>
+        <motion.a
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.7 }}
+          whileHover={{scale:1.1, transition:{duration:0.3, delay:0}}}
+          className="my-4 cursor-pointer"
+        >
+          {CONTACT.github}
+        </motion.a>
         <motion.a
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
